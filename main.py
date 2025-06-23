@@ -12,7 +12,7 @@ hour = datetime.now().hour
 logging.basicConfig(
     filename='auto_update.log',
     level=logging.INFO,
-    fotmat='%(asctime)s [%(levelname)s %(message)s]'
+    format='%(asctime)s [%(levelname)s %(message)s]'
 )
 
 
