@@ -18,8 +18,8 @@ A simple, robust solution for keeping your Linux system packages and Docker imag
 
 1. **Clone the repository:**
    ```sh
-   git clone https://github.com/yourusername/auto-updates.git
-   cd auto-updates
+   git clone https://github.com/yourusername/auto_system_updates.git
+   cd auto_system_updates
    ```
 
 2. **(Optional) Review or edit the Python script and service/timer files as needed.**
