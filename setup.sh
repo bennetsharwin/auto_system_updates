@@ -10,7 +10,7 @@ sudo chmod 755 /opt/auto_updates.py
 
 # Copy service file to systemd location
 sudo cp auto_updates.service /etc/systemd/system/auto-update.service
-sudo chmod 644 /etc/systemd/system/system-update.service
+sudo chmod 644 /etc/systemd/system/auto-update.service
 
 # Copy timer file to systemd location
 sudo cp auto_updates.timer /etc/systemd/system/auto-update.timer
