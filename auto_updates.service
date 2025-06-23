@@ -1,0 +1,12 @@
+# This service will be run by its timer
+[Unit]
+Description=Automated System Update and Cleanup
+Wants=network-online.target
+After=network-online.target
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/python3 /opt/system_update.py
+StandardOutput=append:/var/log/auto_update.log
+StandardError=append:/var/log/auto_update.log
+User=root
